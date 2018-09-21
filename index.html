@@ -1,0 +1,61 @@
+<!--
+    Author: Brandon Lacy
+    A simple calculator API
+    Date: 9/21/2018
+-->
+<html>
+    <head>
+        <title>Calculator</title>
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        
+    </head>
+    <body>
+    <div class="container">
+        <table border="1" cellspacing="0">
+            <!-- The column the shows the current operation (history)-->
+            <tr>
+                <td colspan="4" id="history"></td>
+            </tr>
+            <!-- The column that shows the number the user is typing -->
+            <tr>
+                <td colspan="4" id="txt">0</td>
+            </tr>
+             <!-- Using datasets, the next rows are ether numbers or actions, where the actions are represented with a data-action and/or a operator class -->
+            <tr>
+                <td colspan="3">
+                    <button data-action="clear" id="clr" onclick="getInput(this)">C</button>
+                </td>
+                <td>
+                    <button data-action="divide" class="operator" onclick="getInput(this)">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td><button onclick="getInput(this)">7</button></td>
+                <td><button onclick="getInput(this)">8</button></td>
+                <td><button onclick="getInput(this)">9</button></td>
+                <td><button data-action="multiply" class="operator" onclick="getInput(this)">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getInput(this)">4</button></td>
+                <td><button onclick="getInput(this)">5</button></td>
+                <td><button onclick="getInput(this)">6</button></td>
+                <td><button data-action="subtract" class="operator" onclick="getInput(this)">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getInput(this)">1</button></td>
+                <td><button onclick="getInput(this)">2</button></td>
+                <td><button onclick="getInput(this)">3</button></td>
+                <td><button data-action="add" class="operator" onclick="getInput(this)">+</button></td>
+            </tr>
+            <tr>
+                <td ><button onclick="getInput(this)">0</button></td>
+                <td><button data-action="decimal" onclick="getInput(this)">.</button></td>
+                <td colspan="2"><button data-action="equal" onclick="getInput(this)">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <!-- The link to the javascript file -->
+   <script src="js/calculator.js"></script>
+  </body>
+</html>
