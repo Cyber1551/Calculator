@@ -12,4 +12,4 @@ This project is a simple calculator in HTML, CSS, and javascript.
     - This is where the magic happens; All the logic behind the calculator is here(The four operation functions for example)
     
    
-***Run index.html in a browser to test. No internet or external libraries are required
+**Run index.html in a browser to test. No internet or external libraries are required**
