@@ -1,2 +1,2 @@
 # Calculator
-![alt text](Calculator/calc.png)
+![alt text](https://github.com/cyberboy1551/Calculator/blob/master/calc.PNG)
