@@ -3,11 +3,11 @@
 
 This project is a simple calculator in HTML, CSS, and javascript.
 
-TREE:
-  index: The html of the project. There is no logic here only pure html such as a table and buttons
-  css/
-    style.css: The css for the html. This makes the table look like a calculator. As well as give it some functionality (is-depressed)
-  js/
-    script.js: This is where the magic happens; All the logic behind the calculator is here(The four operation functions for example)
+- TREE:
+  - index: The html of the project. There is no logic here only pure html such as a table and buttons
+  - css/
+    - style.css: The css for the html. This makes the table look like a calculator. As well as give it some functionality (is-depressed)
+  - js/
+    - script.js: This is where the magic happens; All the logic behind the calculator is here(The four operation functions for example)
     
    
